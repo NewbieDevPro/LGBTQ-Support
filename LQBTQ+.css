@@ -5,7 +5,7 @@ h1{
 }
 
 body{
-    background: white;
+    background: linear-gradient(blue, pink, orange);
 }
 
 html{
