@@ -1,13 +1,13 @@
 h1{
     font-family: Hahmlet;
     font-size: 45px;
-    color: white;
+    color: rose;
 }
 
 h3{
     font-family: Hahmlet;
     font-size: 50px;
-    color: white;
+    color: gb(92, 92, 92);
 }
 
 body{
@@ -21,11 +21,11 @@ html{
 h2{
     font-family: Hahmlet;
     font-size: 35px;
-    color: white;
+    color: rose;
 }
 
 a{
     font-family: sans-serif;
     font-size: 30px;
-    color: white;
+    color: rose;
 }
