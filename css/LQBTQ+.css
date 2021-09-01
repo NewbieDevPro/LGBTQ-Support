@@ -4,6 +4,12 @@ h1{
     color: black;
 }
 
+h3{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
 body{
     background: linear-gradient(blue,pink,orange);
 }
