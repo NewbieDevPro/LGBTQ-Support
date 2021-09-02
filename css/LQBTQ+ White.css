@@ -29,3 +29,12 @@ a{
     font-size: 30px;
     color: black;
 }
+
+.boxed{
+
+    border-radius: 0px;
+    font-family: Hahmlet;
+    font-size: 30px;
+    box-shadow: 10px 10px 10px black;
+    background: linear-gradient(blue, pink, orange);
+}
