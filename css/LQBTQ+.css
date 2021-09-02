@@ -35,3 +35,25 @@ form{
     font-size: 30px;
     color: black;
 }
+
+.boxed{
+    border-radius: 50px;
+    font-family: Hahmlet;
+    box-shadow: 10px 10px 10px black;
+    font-size: 30px;
+    background: linear-gradient(blue, pink, orange);
+    height: fit-content;
+    width: 750px;
+    padding: 0px;
+    margin: auto;
+}
+
+.boxed2{
+    border-radius: 50px;
+    font-family: Hahmlet;
+    font-size: 30px;
+    box-shadow: 10px 10px 10px black;
+    background: linear-gradient(orange, blue);
+    width: 750px;
+    margin: auto;
+}
