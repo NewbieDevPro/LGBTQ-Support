@@ -33,7 +33,21 @@ a{
 .boxed{
     border-radius: 50px;
     font-family: Hahmlet;
-    font-size: 30px;
     box-shadow: 10px 10px 10px black;
+    font-size: 30px;
     background: linear-gradient(blue, pink, orange);
+    height: fit-content;
+    width: 750px;
+    padding: 0px;
+    margin: auto;
+}
+
+.boxed2{
+    border-radius: 50px;
+    font-family: Hahmlet;
+    font-size: 30px;
+    box-shadow: 10px 10px 30px black;
+    background: linear-gradient(blue, pink, orange);
+    width: 750px;
+    margin: auto;
 }
