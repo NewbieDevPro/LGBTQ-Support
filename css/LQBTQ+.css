@@ -11,7 +11,7 @@ h3{
 }
 
 body{
-    background: linear-gradient(blue,pink,orange);
+    background-image: href="img/Background.jpg";
 }
 
 html{
@@ -55,5 +55,15 @@ form{
     box-shadow: 10px 10px 10px black;
     background: linear-gradient(orange, blue);
     width: 750px;
+    margin: auto;
+}
+
+.boxed3{
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background: linear-gradient(pink, orange);
+    box-shadow: 10px 10px 10px black;
+    width: 500px;
     margin: auto;
 }
