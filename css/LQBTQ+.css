@@ -10,10 +10,6 @@ h3{
     color: black;
 }
 
-body{
-    background-image: href="img/Background.jpg";
-}
-
 html{
     min-height: 100%;
 }
@@ -65,5 +61,13 @@ form{
     background: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
     width: 500px;
+    margin: auto;
+}
+
+.boxed4{
+    border-radius: 50px;
+    background: linear-gradient(pink, orange);
+    box-shadow: 10px 10px 10px black;
+    width: 850px;
     margin: auto;
 }
