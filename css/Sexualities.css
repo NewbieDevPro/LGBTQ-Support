@@ -10,6 +10,7 @@
 
 .boxed2{
     border-radius: 50px;
+    font-family: 'Trebuchet MS';
     background: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
     width: 850px;
