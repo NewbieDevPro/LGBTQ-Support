@@ -28,7 +28,7 @@ a{
 
 .boxed{
     border-radius: 50px;
-    font-family: Hahmlet;
+    font-family: sans-serif;
     box-shadow: 10px 10px 10px black;
     font-size: 30px;
     background: linear-gradient(pink, orange);
@@ -40,7 +40,7 @@ a{
 
 .boxed2{
     border-radius: 50px;
-    font-family: Hahmlet;
+    font-family: sans-serif;
     font-size: 30px;
     box-shadow: 10px 10px 10px black;
     background: linear-gradient(pink, orange);
