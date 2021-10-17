@@ -47,7 +47,7 @@ a{
 .boxed3{
     border-radius: 50px;
     font-family: sans-serif;
-    font-size: 75vmax;
+    font-size: 75vw;
     background: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
     height: unset;
