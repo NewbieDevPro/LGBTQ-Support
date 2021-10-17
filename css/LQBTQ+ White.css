@@ -54,6 +54,7 @@ a{
     font-size: 30px;
     background: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
+    height: auto;
     width: 500px;
     margin: auto;
 }
