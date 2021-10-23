@@ -65,4 +65,5 @@ a{
 .boxedfeed{
     border-radius: 50px;
     background: white;
+    width: fit-content;
 }
