@@ -12,7 +12,7 @@
     border-radius: 50px;
     background: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
-    width: 1150px;
+    width: 850px;
     margin: auto;
 }
 
@@ -22,7 +22,9 @@
     font-size: 30px;
     box-shadow: 10px 10px 10px black;
     background: linear-gradient(pink, orange);
+    height: fit-content;
     width: 750px;
+    padding: 0px;
     margin: auto;
 }
 
