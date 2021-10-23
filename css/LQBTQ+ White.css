@@ -64,8 +64,5 @@ a{
 
 .boxedfeed{
     border-radius: 50px;
-    background: linear-gradient(pink, orange);
-    box-shadow: 10px 10px 10px black;
-    width: fit-content;
-    margin: auto;
+    background: white;
 }
