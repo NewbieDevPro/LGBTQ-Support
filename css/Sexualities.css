@@ -83,8 +83,8 @@ svg{
 }
 
 .dropbtn{
-    background-color: #3498DB;
-    color: white;
+    background: linear-gradient(black, grey, white, purple);
+    color: black;
     padding: 24px;
     width: auto;
     font-size: 16px;
