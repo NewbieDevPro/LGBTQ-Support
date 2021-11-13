@@ -141,7 +141,7 @@ svg{
 
 *{
     margin: 0;padding: 0;
-    box-sizing: border-box; font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; font-family: sans-serif;
 }
 
 
@@ -166,7 +166,7 @@ svg{
     content: '\f062'; position: absolute;
     right: 0; display: flex;
     align-items: center; justify-content: center;
-    font-family: 'Font Awesome 5 Free'; font-weight: 700;
+    font-family: sans-serif; font-weight: 700;
     width: 20%; height: 110%; color: white;
     transform: rotate(180deg); transition: all .4s;
 }
@@ -182,7 +182,7 @@ svg{
 
 input:checked ~ .list{ clip-path: none;}
 .list a{
-    height: 25%; display: flex;
+    height: 50%; display: flex;
     align-items: center; padding: 0.3em 0 0.3em 1em;
     text-decoration: none; margin: 0.3em 0;
     background: white; color: rgb(36, 36, 36);
