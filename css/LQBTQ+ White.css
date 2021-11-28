@@ -25,7 +25,8 @@ a{
 .boxed{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 10px black;
+    background-color: #ccccff;
     font-size: 30px;
     backdrop-filter: blur(5px);
     height: fit-content;
