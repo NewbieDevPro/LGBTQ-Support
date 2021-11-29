@@ -26,7 +26,7 @@ a{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
     box-shadow: 10px black;
-    background-color:#eed971ff;
+    background-color: #f5ffc9;
     font-size: 30px;
     height: fit-content;
     width: 750px;
@@ -56,7 +56,7 @@ a{
 
 .boxed4{
     border-radius: 50px;
-    background: rgb(252, 235, 218)235, 218);
+    background: #ffc9e9;
     box-shadow: 10px 10px 10px black;
     width: 850px;
     margin: auto;
