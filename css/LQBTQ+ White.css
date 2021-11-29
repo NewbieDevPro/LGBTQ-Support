@@ -47,7 +47,7 @@ a{
 .boxed3{
     border-radius: 50px;
     font-size: 45px;
-    background: #ffa351ff;
+    background: #c7b7eb;
     box-shadow: 10px 10px 10px black;
     height: unset;
     width: 500px;
@@ -56,7 +56,7 @@ a{
 
 .boxed4{
     border-radius: 50px;
-    background: #ffbe7bff;
+    background: rgb(252, 235, 218)235, 218);
     box-shadow: 10px 10px 10px black;
     width: 850px;
     margin: auto;
