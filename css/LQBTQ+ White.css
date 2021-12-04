@@ -31,7 +31,7 @@ a{
     height: fit-content;
     width: 750px;
     padding: 0px;
-    margin: 5px;
+    margin: 15px;
 }
 
 .boxed2{
@@ -41,7 +41,7 @@ a{
     box-shadow: 10px 10px 10px black;
     background: #fce1e4;
     width: 750px;
-    margin: 5px;
+    margin: 15px;
 }
 
 .boxed3{
@@ -51,7 +51,7 @@ a{
     box-shadow: 10px 10px 10px black;
     height: unset;
     width: 500px;
-    margin: 5px;
+    margin: 15px;
 }
 
 .boxed4{
@@ -59,7 +59,7 @@ a{
     background-color: #63b7b7;
     box-shadow: 10px 10px 10px black;
     width: 850px;
-    margin: 5px;
+    margin: 15px;
 }
 
 .boxedfeed{
