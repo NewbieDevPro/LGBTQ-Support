@@ -26,7 +26,7 @@ a{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
     box-shadow: 10px 10px 10px black;
-    background-color: #63b7b7;
+    background-color: linear-gradient(pink, orange);
     font-size: 30px;
     height: fit-content;
     width: 750px;
@@ -47,7 +47,7 @@ a{
 .boxed3{
     border-radius: 50px;
     font-size: 45px;
-    background-color: #63b7b7;
+    background-color: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
     height: unset;
     width: 500px;
@@ -56,7 +56,7 @@ a{
 
 .boxed4{
     border-radius: 50px;
-    background-color: #63b7b7;
+    background-color: linear-gradient(pink, orange);
     box-shadow: 10px 10px 10px black;
     width: 850px;
     margin: 15px;
