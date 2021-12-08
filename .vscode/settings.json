@@ -8,5 +8,6 @@
         "plaintext",
         "html",
         "css"
-    ]
+    ],
+    "discord.token": "867095936315555901"
 }
