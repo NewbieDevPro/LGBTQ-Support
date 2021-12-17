@@ -1,0 +1,73 @@
+body ::selection {
+    color: #fff;
+    background-color: #3b3b98;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 4px;
+    padding: 2rem 1rem;
+}
+
+@media (min-width: 840px) {
+    .container .card {
+        width: 60%;
+    }
+}
+.container .card h3{
+    font-size: 22px;
+    color: #6f7880;
+}
+.container .card p.advice {
+    text-align: center;
+    font-size: 30px;
+}
+.container .card a#get-advice {
+    background-color: #3b3b98;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.15s all;
+}
+.container .card a#get-advice:hover {
+    cursor: pointer;
+}
+.container .card a#get-advice:active {
+    transition: scale(0.9);
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.boxed{
+    border-radius: 50px;
+    font-size: 45px;
+    background: linear-gradient(pink, orange);
+    box-shadow: 10px 10px 10px black;
+    height: unset;
+    width: 500px;
+    margin: 15px;
+}
