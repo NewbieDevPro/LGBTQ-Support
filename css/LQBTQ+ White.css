@@ -351,3 +351,8 @@ summary svg {
         transform: scale(1);
     }
 }
+
+.translate {
+    border-radius: 50px;
+    font-size: 30px;
+}
