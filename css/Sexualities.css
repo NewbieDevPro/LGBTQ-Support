@@ -2,7 +2,7 @@
     border-radius: 50px;
     font-family: sans-serif;
     font-size: 30px;
-    background: linear-gradient(pink, orange);
+    background: linear-gradient(#f50000, #ffb400);
     box-shadow: 10px 10px 10px black;
     width: 500px;
     margin: auto;
@@ -11,7 +11,7 @@
 .boxed2{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
-    background: linear-gradient(pink, orange);
+    background: linear-gradient(#f50000, #ffb400);
     box-shadow: 10px 10px 10px black;
     width: 850px;
     margin: auto;
@@ -22,7 +22,7 @@
     font-family: 'Trebuchet MS';
     box-shadow: 10px 10px 10px black;
     font-size: 30px;
-    background: linear-gradient(pink, orange);
+    background: linear-gradient(#f50000, #ffb400);
     height: fit-content;
     width: 750px;
     padding: 0px;
