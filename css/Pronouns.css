@@ -2,7 +2,8 @@
     border-radius: 50px;
     font-family: sans-serif;
     font-size: 30px;
-    background: linear-gradient(pink, orange);
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     box-shadow: 10px 10px 10px black;
     width: 500px;
     margin: auto;
@@ -10,7 +11,8 @@
 
 .boxed2{
     border-radius: 50px;
-    background: linear-gradient(pink, orange);
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     box-shadow: 10px 10px 10px black;
     width: 850px;
     margin: auto;
@@ -21,7 +23,8 @@
     font-family: sans-serif;
     font-size: 30px;
     box-shadow: 10px 10px 10px black;
-    background: linear-gradient(pink, orange);
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     height: fit-content;
     width: 750px;
     padding: 0px;
@@ -33,7 +36,8 @@
     font-family: sans-serif;
     box-shadow: 10px 10px 10px black;
     font-size: 30px;
-    background: linear-gradient(pink, orange);
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     height: fit-content;
     width: 750px;
     padding: 0px;
