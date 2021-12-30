@@ -100,7 +100,7 @@ svg{
 }
 
 .dropbtn{
-    background: linear-gradient(black, grey, white, purple);
+    background: linear-gradient(315deg,black, grey, white, purple);
     color: black;
     padding: 24px;
     width: auto;
