@@ -26,8 +26,8 @@ a{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
     box-shadow: 10px 10px 10px black;
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
     font-size: 30px;
     height: fit-content;
     width: 750px;
@@ -48,8 +48,8 @@ a{
 .boxed3{
     border-radius: 50px;
     font-size: 45px;
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
     box-shadow: 10px 10px 10px black;
     height: unset;
     width: 500px;
@@ -58,8 +58,8 @@ a{
 
 .boxed4{
     border-radius: 50px;
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
     box-shadow: 10px 10px 10px black;
     width: 850px;
     margin: 15px;
