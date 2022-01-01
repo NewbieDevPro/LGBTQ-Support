@@ -43,14 +43,21 @@ body, head{
 }
 
 footer{
+    border-radius: 20px;
     align-items: center;
-    background-color: #1fd1f9;
-    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    background-image: linear-gradient(to bottom right, #1fd1f9 0%, #b621fe 74%);
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
     color: #fff;
     display: flex;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     justify-content: space-around;
     padding: 15px;
+}
+
+@keyframes movingGradient {
+    from { background-position: 0 0; }
+    to   { background-position: 100% 100%;}
 }
 
 .f-nav{
@@ -123,7 +130,9 @@ svg{
 
 .dropbtn{
     background-color: #abe9cd;
-    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    background-image: linear-gradient(to bottom right, #abe9cd 0%, #3eadcf 74%);
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
     color: black;
     padding: 24px;
     width: auto;
