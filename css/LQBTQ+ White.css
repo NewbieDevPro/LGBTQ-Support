@@ -25,6 +25,7 @@ a{
 }
 
 body, head{
+    background-size: auto;
     background-color: #1fd1f9;
     background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 }
@@ -32,9 +33,9 @@ body, head{
 .boxed{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
-    box-shadow: 10px 10px 10px black;
-    background-color: #eec0c6;
-    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     font-size: 30px;
     height: fit-content;
     width: 750px;
@@ -78,9 +79,9 @@ footer{
 .boxed3{
     border-radius: 50px;
     font-size: 45px;
-    background-color: #eec0c6;
-    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
-    box-shadow: 10px 10px 10px black;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     height: unset;
     width: 500px;
     margin: 15px;
@@ -88,9 +89,9 @@ footer{
 
 .boxed4{
     border-radius: 50px;
-    background-color: #eec0c6;
-    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
-    box-shadow: 10px 10px 10px black;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     width: 850px;
     margin: 15px;
 }
