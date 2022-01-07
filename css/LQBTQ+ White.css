@@ -44,11 +44,10 @@ body, head{
 }
 
 footer{
-    border-radius: 20px;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #1fd1f9 0%, #b621fe 74%);
-    background-size: 200% 200%;
-    animation: movingGradient 5s linear infinite alternate; 
+    background-color: #ffffff10;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); 
     color: #fff;
     display: flex;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
