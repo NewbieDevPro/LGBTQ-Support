@@ -3,8 +3,8 @@
     font-family: sans-serif;
     font-size: 30px;
     background-color: #ffffff10;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     width: 500px;
     margin: auto;
 }
@@ -13,8 +13,8 @@
     border-radius: 50px;
     font-family: 'Trebuchet MS';
     background-color: #ffffff10;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     width: 850px;
     margin: auto;
     overflow: hidden;
@@ -32,8 +32,8 @@ body, head{
     font-family: 'Trebuchet MS';
     font-size: 30px;
     background-color: #ffffff10;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     height: fit-content;
     width: 750px;
     padding: 0px;
