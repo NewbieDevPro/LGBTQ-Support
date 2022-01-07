@@ -1,18 +1,6 @@
-h1{
+h1, h2, h3{
     font-family: 'Trebuchet MS';
     font-size: 45px;
-    color: black;
-}
-
-h3{
-    font-family: 'Trebuchet MS';
-    font-size: 50px;
-    color: black;
-}
-
-h2{
-    font-family: 'Trebuchet MS';
-    font-size: 35px;
     color: black;
 }
 
