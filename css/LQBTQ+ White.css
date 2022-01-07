@@ -29,6 +29,7 @@ body, head{
     width: 750px;
     padding: 0px;
     margin: 15px;
+    box-shadow: 5px 5px 5px 5px #000000;
 }
 
 footer{
@@ -72,6 +73,7 @@ footer{
     height: unset;
     width: 500px;
     margin: 15px;
+    box-shadow: 5px 5px 5px 5px #000000;
 }
 
 .boxed4{
@@ -81,6 +83,7 @@ footer{
     -webkit-backdrop-filter: blur(100px);
     width: 850px;
     margin: 15px;
+    box-shadow: 5px 5px 5px 5px #000000;
 }
 
 .boxedfeed{

@@ -6,6 +6,7 @@
     backdrop-filter: blur(100px);
     -webkit-backdrop-filter: blur(100px);
     width: 500px;
+    box-shadow: 5px 5px 5px 5px #000000;
     margin: auto;
 }
 
@@ -19,6 +20,7 @@ body, head{
     border-radius: 50px;
     background-color: #ffffff10;
     backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 5px 5px #000000;
     -webkit-backdrop-filter: blur(100px);
     width: 850px;
     margin: auto;
@@ -33,6 +35,7 @@ body, head{
     -webkit-backdrop-filter: blur(100px);
     height: fit-content;
     width: 750px;
+    box-shadow: 5px 5px 5px 5px #000000;
     padding: 0px;
     margin: auto;
 }
@@ -47,6 +50,7 @@ body, head{
     height: fit-content;
     width: 750px;
     padding: 0px;
+    box-shadow: 5px 5px 5px 5px #000000;
     margin: auto;
 }
 
