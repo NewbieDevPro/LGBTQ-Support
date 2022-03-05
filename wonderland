@@ -3,5 +3,13 @@
 <head>
     <title>Wonderland Alters Info</title>
     <link rel="stylesheet" href="css/Sexualities.css" type="text/css">
+    <link rel="icon" href="img/Background2.jpg" type="image/x-icon">
+    <div class="boxed">
+        <center">|<a href="Sexualities.html" title="Go Back">Go Back</a></center>
+    </div>
 </head>
+<body>
+    <div class="boxed2">
+        
+</body>
 </html>
