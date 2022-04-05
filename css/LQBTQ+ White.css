@@ -67,7 +67,7 @@ footer{
 .boxed3{
     border-radius: 50px;
     font-size: 45px;
-    background-image: linear-gradient(135deg, #ffa6b7 10%, #1e2ad2 100%);
+    background-image: linear-gradient(135deg, #00dbde 10%, #fc00ff 100%);
     backdrop-filter: blur(100px);
     -webkit-backdrop-filter: blur(100px);
     height: unset;
