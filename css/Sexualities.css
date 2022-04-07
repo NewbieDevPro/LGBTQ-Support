@@ -6,6 +6,7 @@
     backdrop-filter: blur(100px);
     -webkit-backdrop-filter: blur(100px);
     width: 500px;
+    margin: auto;
     box-shadow: 5px 5px 5px 5px #000000;
 }
 
@@ -37,6 +38,7 @@ body, head{
     height: fit-content;
     box-shadow: 5px 5px 5px 5px #000000;
     width: 750px;
+    margin: auto;
 }
 
 h2{
