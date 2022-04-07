@@ -34,7 +34,7 @@ body, head{
 
 footer{
     align-items: center;
-    background-color: #ffffff10;
+    background-image: linear-gradient(135deg, #00dbde 10%, #fc00ff 100%);
     backdrop-filter: blur(100px);
     -webkit-backdrop-filter: blur(100px); 
     color: #fff;
