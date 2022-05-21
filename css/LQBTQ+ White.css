@@ -18,6 +18,18 @@ h1, h2, h3{
     text-align: center;
 }
 
+.container>div>h1 {
+    font-size: 3em;
+    margin: 1px;
+}
+
+.container>div>h2 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 1px;
+}
+
 .container>div>a {
     border: 3px solid #00ffc9;
     border-radius: 50px;
