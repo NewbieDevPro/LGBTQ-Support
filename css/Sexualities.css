@@ -1,19 +1,21 @@
 .boxed{
     font-family: 'Trebuchet MS';
-    border-radius: 50px;
+    border-radius: 15px;
     background: linear-gradient(145deg, #c91414, #ef1818);
-    box-shadow:  10px 10px 20px #6d0b0b,
-                -10px -10px 20px #ff2121;
-    margin-top: 50px;
+    box-shadow:  5px 5px 10px #6d0b0b,
+                -5px -5px 10px #ff2121;
+    margin-top: 30px;
+    width: 134px;
 }
 
 .boxed2{
     font-family: 'Trebuchet MS';
-    border-radius: 50px;
+    border-radius: 20px;
     background: linear-gradient(145deg, #c91414, #ef1818);
-    box-shadow:  10px 10px 20px #6d0b0b,
-                -10px -10px 20px #ff2121;
-    margin-top: 50px;
+    box-shadow:  5px 5px 10px #6d0b0b,
+                -5px -5px 10px #ff2121;
+    margin-top: 30px;
+    width: 500px;
 }
 
 body, head{
@@ -23,11 +25,11 @@ body, head{
 
 .boxed3{
     font-family: 'Trebuchet MS';
-    border-radius: 50px;
+    border-radius: 20px;
     background: linear-gradient(145deg, #c91414, #ef1818);
-    box-shadow:  10px 10px 20px #6d0b0b,
-                -10px -10px 20px #ff2121;
-    margin-top: 50px;
+    box-shadow:  5px 5px 10px #6d0b0b,
+                -5px -5px 10px #ff2121;
+    margin-top: 30px;
 }
 
 h1{
