@@ -32,7 +32,7 @@ body, head{
 
 h1{
     font-family: 'Trebuchet MS';
-    color: #08457e;
+    color: #000000;
 }
 
 h2{
@@ -46,7 +46,7 @@ h3{
 }
 
 a{
-    color: #00b0d1;
+    color: #000000;
     font-family: sans-serif;
     font-size: 30px;
     text-decoration: none;
@@ -62,7 +62,7 @@ p{
     font-family: 'Trebuchet MS';
     font-size: 30px;
     font-style: normal;
-    color: #ffffff;
+    color: #000000;
 }
 
 form{
