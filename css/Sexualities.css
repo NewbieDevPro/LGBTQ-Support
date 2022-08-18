@@ -5,7 +5,6 @@
     box-shadow:  5px 5px 10px #6d0b0b,
                 -5px -5px 10px #ff2121;
     margin-top: 30px;
-    width: 134px;
 }
 
 .boxed2{
@@ -15,7 +14,6 @@
     box-shadow:  5px 5px 10px #6d0b0b,
                 -5px -5px 10px #ff2121;
     margin-top: 30px;
-    width: 500px;
 }
 
 body, head{
@@ -86,24 +84,46 @@ input{
     padding: 6px 10px;
 }
 
-::placeholder{
-    color: #fff;
-    opacity: 0.7;
-}
-
-.button{
-    background-color: dodgerblue;
+.button {
+    display: inline-block;
+    border-radius: 7px;
     border: none;
+    background: #1875FF;
     color: white;
-    padding: 12px 30px;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
     cursor: pointer;
-    font-size: 20px;
 }
-
-.button:hover{
-    background-color: royalblue;
+   
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
 }
-
+   
+.button span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+   
+.button:hover span {
+    padding-right: 3.55em;
+}
+   
+.button:hover span:after {
+    opacity: 4;
+    right: 0;
+}
 svg{
     color: #fff;
     fill: currentColor;
