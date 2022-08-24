@@ -2,8 +2,8 @@
     font-family: 'Trebuchet MS';
     border-radius: 15px;
     background: linear-gradient(145deg, #c91414, #ef1818);
-    box-shadow:  5px 5px 10px #6d0b0b,
-                -5px -5px 10px #ff2121;
+    box-shadow: inset 5px 5px 10px #6d0b0b,
+                inset -5px -5px 10px #ff2121;
     margin-top: 30px;
 }
 
@@ -11,22 +11,30 @@
     font-family: 'Trebuchet MS';
     border-radius: 20px;
     background: linear-gradient(145deg, #c91414, #ef1818);
-    box-shadow:  5px 5px 10px #6d0b0b,
-                -5px -5px 10px #ff2121;
+    box-shadow: inset 5px 5px 10px #6d0b0b,
+                inset -5px -5px 10px #ff2121;
     margin-top: 30px;
 }
 
 body, head{
-    background-color: #ff8614;
+    /*background-color: #ff8614;
     /*background-image: linear-gradient(135deg, #1fd1f9 10%, #b621fe 100%); */
+}
+
+.container{
+    font-family: 'Trebuchet MS';
+    border-radius: 10px;
+    background: linear-gradient(145deg, #e67912, #ff8f15);
+    box-shadow:  5px 5px 0px #d97211,
+                 -5px -5px 0px #ff9a17;
 }
 
 .boxed3{
     font-family: 'Trebuchet MS';
     border-radius: 20px;
     background: linear-gradient(145deg, #c91414, #ef1818);
-    box-shadow:  5px 5px 10px #6d0b0b,
-                -5px -5px 10px #ff2121;
+    box-shadow:  inset 5px 5px 10px #6d0b0b,
+                 inset -5px -5px 10px #ff2121;
     margin-top: 30px;
 }
 
@@ -74,6 +82,8 @@ form{
     flex-direction: row;
     align-items: center;
 }
+
+
 
 input{
     all: unset;
