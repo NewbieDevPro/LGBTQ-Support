@@ -25,5 +25,8 @@
         "Polyamorous",
         "Polysexual",
         "Zems"
-    ]
+    ],
+    "discord.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true
 }

@@ -38,12 +38,13 @@ h1, h2, h3{
     text-decoration: none;
 }
 
-a{
+a, header{
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     margin: 5px;
     text-decoration: none;
+    text-align: center;
 }
 
 body, head{
@@ -55,15 +56,15 @@ body, head{
 .boxed{
     border-radius: 50px;
     font-family: 'Trebuchet MS';
-    background-image: linear-gradient(135deg, #00dbde 10%, #fc00ff 100%);
+   /* background-image: linear-gradient(135deg, #00dbde 10%, #fc00ff 100%);
     backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px); */
     font-size: 30px;
     height: fit-content;
     width: 750px;
     padding: 0px;
     margin: 15px;
-    box-shadow: 5px 5px 5px 5px #000000;
+   /* box-shadow: 5px 5px 5px 5px #000000; */
 }
 
 footer{
@@ -143,277 +144,4 @@ button{
     cursor: pointer;
     width: 44px;
     height: 44px;
-}
-
-svg{
-    color: #fff;
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-}
-
-.dropbtn{
-    background-color: #abe9cd;
-    background-image: linear-gradient(to bottom right, #abe9cd 0%, #3eadcf 74%);
-    background-size: 200% 200%;
-    animation: movingGradient 5s linear infinite alternate;
-    color: black;
-    padding: 24px;
-    width: auto;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 15px;
-}
-
-.dropbtn:hover, .dropbtn:focus{
-    backdrop-filter: #2980b9;
-}
-
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    overflow: auto;
-}
-
-.dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover
-{background-color: #ddd;}
-
-.show {display: block;}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-*{
-    margin: 0;padding: 0;
-    box-sizing: border-box; font-family: sans-serif;
-}
-
-
-.btn{
-    width: 100%; height: 35px;
-    cursor: pointer; position: relative;
-    display: flex;
-}
-
-.btn::before{
-    content: 'Drop Down'; display: flex;
-    align-items: center; width: 100%;
-    height: 100%; background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.62);
-    border: 2px solid #FF5F6D; padding-left: lem;
-    background: linear-gradient(to right, white 80%, #FF5F6D 20%);
-}
-
-.btn::after{
-    content: '\f062'; position: absolute;
-    right: 0; display: flex;
-    align-items: center; justify-content: center;
-    font-family: sans-serif; font-weight: 700;
-    width: 20%; height: 110%; color: white;
-    transform: rotate(180deg); transition: all .4s;
-}
-
-.btn::checked::after{ transform: rotate(0deg);}
-.list{
-    position: absolute; margin-top: 0.5em;
-    width: 100%; height: 175px;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    display: flex; flex-direction: column;
-    transition: all .4s;
-}
-
-input:checked ~ .list{ clip-path: none;}
-.list a{
-    height: 50%; display: flex;
-    align-items: center; padding: 0.3em 0 0.3em 1em;
-    text-decoration: none; margin: 0.3em 0;
-    background: white; color: rgb(36, 36, 36);
-    border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.62); transition: background .4s;
-}
-
-.list a:hover{ background: #FF5F6D; color: white;}
-
-[data-theme="light"] {
-    --bg-color: #fff;
-    --color: #333;
-    --togglebg: #d4e7d5;
-    --toggleslider: #fff;
-    --roundcolor: #fff;
-    --svgcolor: #111;
-}
-
-[data-theme="dark"] {
-    --bg-color: #333333;
-    --color: #e9dcdc;
-    --togglebg: #333;
-    --toggleslider: #e9dcdc;
-    --roundcolor: #333;
-    --svgcolor: #fff;
-}
-
-.slider {
-    background-color: var(--togglebg);
-    bottom: 0;
-    cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: 0.4s;
-}
-
-.slider:before {
-    background-color: var(--roundcolor);
-    bottom: 4px;
-    content: "";
-    height: 26px;
-    left: 4px;
-    position: absolute;
-    transition: 0.4s;
-    width: 26px;
-}
-
-body{
-    background-color: var(--bg-color);
-    transition: all 0.5s;
-}
-
-details {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-    margin-top: 2rem;
-    color: #6b7280;
-    display: flex;
-    flex-direction: column;
-}
-
-details div {
-    background-color: #1e1e27;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    padding: 1.25rem;
-    border-radius: 8px;
-    position: absolute;
-    max-height: calc(100vh - 100px);
-    width: 400px;
-    max-width: calc(100vw - 2rem);
-    bottom: calc(100% + 1rem);
-    right: 0;
-    overflow: auto;
-    transform-origin: 100% 100%;
-    color: #95a3b9;
-}
-
-details div::-webkit-scrollbar {
-    width: 15px;
-    background-color: #1e1e27;
-}
-
-details div::-webkit-scrollbar-thumb {
-    width: 5px;
-    border-radius: 99em;
-    background-color: #95a3b9;
-    border: 5px solid #1e1e27;
-}
-
-details div > * + * {
-    margin-top: 0.75em;
-}
-
-details div p > code{
-    font-size: 1rem;
-    font-family: monospace;
-}
-
-details div pre {
-    white-space: pre-line;
-    border: 1px solid #95a3b9;
-    border-radius: 6px;
-    font-family: monospace;
-    padding: 0.75em;
-    font-size: 0.875rem;
-    color: #fff;
-}
-
-details[open] div {
-    -webkit-animation: scale 0.25s ease;
-    animation: scale 0.25s ease;
-}
-
-summary{
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    padding: 0.75em 3em 0.75em;
-    border-radius: 99em;
-    color: #fff;
-    background-color: #185adb;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    list-style: none;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.15s ease;
-    position: relative;
-}
-
-summary::-webkit-details-marker {
-    display: none;
-}
-
-summary:hover, summary:focus {
-    background-color: #1348af;
-}
-
-summary svg {
-    position: absolute;
-    right: 1.25em;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1.5em;
-    height: 1.5em;
-}
-
-@-webkit-keyframes scale {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes scale {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-.translate {
-    border-radius: 50px;
-    font-size: 30px;
 }

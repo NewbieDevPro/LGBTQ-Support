@@ -1,0 +1,26 @@
+h1,h2, h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+a, .nav-menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boxed {
+    border-radius: 25px;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+    width: fit-content;
+}
+
+head, body{
+    background-color: blue;
+}
